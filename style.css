@@ -276,7 +276,7 @@ form {
     justify-content: space-between;
 }
 .about-content {
-    max-width: fit-content;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
