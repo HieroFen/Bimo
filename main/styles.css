@@ -326,6 +326,30 @@ nav .logo {
 .primary-btn:hover {
   background-color: var(--primary-dark);
 }
+
+#talk-to-us {
+  background-image: url("./img/talk-to-us.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  margin-top: 120px;
+}
+
+.talk-to-us-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  gap: 16px;
+  padding: 0 16px;
+}
+.talk-to-us-content h1 {
+  color: var(--primary-dark);
+}
+.talk-to-us-content p {
+  max-width: 500px;
+}
 @media only screen and (max-width : 520px) {
   #header{
       min-height: 50vh;
