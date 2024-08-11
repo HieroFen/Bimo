@@ -373,7 +373,7 @@ nav .logo {
       height: 100%;
       align-items: end;
       padding-top: 80px;
-      margin-right: 0px;
+      margin-right: -900px;
       transition: all .3s ease;
   }
   nav ul.active {
