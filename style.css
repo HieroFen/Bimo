@@ -225,13 +225,73 @@ form {
     
 }
 
-#wisata-header {
-    width: 100vw;
-    min-height: 100vh;
-    background-image: url("./img/main.png");
+#peta-header {
+    min-height: 400px;
+    background-image: url("./img/peta.img.back.jpg");
     background-size: cover;
     background-position: center;
+}
+.peta-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 60px;
+}
+.peta-header-content h1{
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 500;
+}
+.peta-header-content p {
+    font-size: 40px;
+    color: var(--primary-dark);
+}
+#isi-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/img.petaputih.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#konten-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/img.petaputih.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#content-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/img.petaputih.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
+#map-about {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.about-content {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content h1 {
+    font-style: 32px;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+}
+.about-content p {
+    text-align: justify;
+}
+#map-about img {
+    max-width: 250px;
+    padding-left: 15px;
 }
 
 @media only screen and (max-width : 520px) {
@@ -281,5 +341,24 @@ form {
     }
     .inputsWrapper {
         margin-left: 0;
+    }
+    #map-about {
+        display: flex;
+        margin-top: 120px;
+        justify-content: space-between;
+    }
+    .about-content {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-content h1 {
+        font-style: 32px;
+        color: var(--primary-dark);
+        text-transform: uppercase;
+    }
+    #map-about img {
+        max-width: 350px;
     }
 }
