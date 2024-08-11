@@ -226,12 +226,6 @@ nav {
   padding: 32px 0;
   color:var(--white);
 }
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 32px;
-  font-size: 18px;
-} 
 nav .logo {
   font-size: 20px; 
 }
@@ -362,28 +356,5 @@ nav .logo {
   }
   nav {
       padding: 16px;
-  }
-  nav ul {
-      position: absolute;
-      top: 0;
-      right: 0;
-      flex-direction: column;
-      background-color: var(--white);
-      width: 80%;
-      height: 100%;
-      align-items: end;
-      padding-top: 80px;
-      margin-right: -900px;
-      transition: all .3s ease;
-  }
-  nav ul.active {
-      margin-right: 0;
-  }
-
-  nav li {
-      border-bottom: 1px solid var(--primary-dark);
-      width: 100%;
-      padding: 8px 16px;
-      text-align: right;
   }
 }
