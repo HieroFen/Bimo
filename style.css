@@ -24,7 +24,7 @@ a {
 #header{
     width: 100vw;
     min-height: 100vh;
-    background-image: url('./img/main.png');
+    background-image: url('./img/back7.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -228,7 +228,7 @@ form {
 #wisata-header {
     width: 100vw;
     min-height: 100vh;
-    background-image: url("./img/img.peta.jpg");
+    background-image: url("./img/main.png");
     background-size: cover;
     background-position: center;
 
