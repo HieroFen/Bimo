@@ -326,3 +326,40 @@ nav .logo {
 .primary-btn:hover {
   background-color: var(--primary-dark);
 }
+@media only screen and (max-width : 520px) {
+  #header{
+      min-height: 50vh;
+  }
+  .header-content h1 {
+      font-size: 32px;
+  }
+  .header-content p {
+      font-size: 24px;
+  }
+  nav {
+      padding: 16px;
+  }
+  nav ul {
+      position: absolute;
+      top: 0;
+      right: 0;
+      flex-direction: column;
+      background-color: var(--white);
+      width: 80%;
+      height: 100%;
+      align-items: end;
+      padding-top: 80px;
+      margin-right: -900px;
+      transition: all .3s ease;
+  }
+  nav ul.active {
+      margin-right: 0;
+  }
+
+  nav li {
+      border-bottom: 1px solid var(--primary-dark);
+      width: 100%;
+      padding: 8px 16px;
+      text-align: right;
+  }
+}
