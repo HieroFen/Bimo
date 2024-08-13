@@ -251,14 +251,49 @@ form {
 #isi-header {
     width: 100vw;
     min-height: 100vh;
-    background-image: url('./img/img.petaputih.jpg');
+    background-image: url('./img/masterplan/1.png');
+    background-position: center;
+    background-size: cover;
+}
+#isi2-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/masterplan/2.png');
+    background-position: center;
+    background-size: cover;
+}
+#isi3-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/masterplan/3.png');
+    background-position: center;
+    background-size: cover;
+}
+#isi4-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/masterplan/4.png');
+    background-position: center;
+    background-size: cover;
+}
+#isi5-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/masterplan/5.png');
+    background-position: center;
+    background-size: cover;
+}
+#isi6-header {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('./img/masterplan/6.png');
     background-position: center;
     background-size: cover;
 }
 #konten-header {
     width: 100vw;
     min-height: 100vh;
-    background-image: url('./img/img.petaputih.jpg');
+    background-image: url('./img/masterplan/7.png');
     background-position: center;
     background-size: cover;
 }
