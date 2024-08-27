@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bimomartani Tourist Village</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                 <div class="logo"><h1>Desa Bimomartani</h1></div>
+                 <ul class="nav-links">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="wisata.html">Profile</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                 </ul>
+                 <div class="menu-btn"><img src="./img/menu.svg" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>Bimomartani</h1>
+                <p>Desa Wisata</p>
+                <button class="primary-btn">Explore</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+            <img src="./img/service-1.png" alt="">
+            <h1>Wisata</h1>
+
+        </div>
+        <div class="service">
+            <img src="./img/service-2.png" alt="">
+            <h1>Budaya</h1>
+        </div>
+        <div class="service">
+            <img src="./img/service-3.png" alt="">
+            <h1>UMKM</h1>
+        </div>
+    </section>
+               
+
+        <section id="talk-to-us">
+            <div class="talk-to-us-content">
+                <h1>TALK TO US</h1>
+                <p>
+                </p>
+                <button class="primary-btn">GET IN TOUCH</button>
+            </div>
+        </section>
+
+        <footer class="container">
+            <ul class="footerlinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <h1 class="logo">Bimomartani</h1>
+            <p>@2024 Bimomartani. All right reserved</p>
+        </footer>
+
+    <script>
+         const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
